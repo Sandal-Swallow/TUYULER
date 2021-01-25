@@ -1,0 +1,76 @@
+# view AndroidManifest.xml #generated:33
+-keep class com.startapp.id.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.startapp.id.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.startapp.id.SplashscreenActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:108
+# view res/layout/activity_main.xml #generated:121
+# view res/layout/activity_main.xml #generated:134
+# view res/layout/activity_main.xml #generated:147
+# view res/layout/activity_main.xml #generated:160
+# view res/layout/activity_main.xml #generated:173
+# view res/layout/activity_main.xml #generated:186
+# view res/layout/activity_main.xml #generated:199
+# view res/layout/activity_main.xml #generated:212
+# view res/layout/activity_main.xml #generated:225
+# view res/layout/activity_main.xml #generated:81
+# view res/layout/activity_main.xml #generated:95
+-keep class com.startapp.sdk.ads.banner.Banner { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:238
+# view res/layout/activity_main.xml #generated:88
+-keep class com.startapp.sdk.ads.banner.Cover { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:102
+# view res/layout/activity_main.xml #generated:115
+# view res/layout/activity_main.xml #generated:128
+# view res/layout/activity_main.xml #generated:141
+# view res/layout/activity_main.xml #generated:154
+# view res/layout/activity_main.xml #generated:167
+# view res/layout/activity_main.xml #generated:180
+# view res/layout/activity_main.xml #generated:193
+# view res/layout/activity_main.xml #generated:206
+# view res/layout/activity_main.xml #generated:219
+# view res/layout/activity_main.xml #generated:232
+-keep class com.startapp.sdk.ads.banner.Mrec { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.startapp.sdk.ads.list3d.List3DActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.startapp.sdk.adsbase.InfoEventService { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.startapp.sdk.adsbase.PeriodicJobService { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.startapp.sdk.adsbase.StartAppInitProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.startapp.sdk.adsbase.activities.FullScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.startapp.sdk.adsbase.activities.OverlayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.startapp.sdk.adsbase.consent.ConsentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener { <init>(...); }
+
+# onClick res/layout/settings.xml #generated:96
+-keepclassmembers class * { *** Simpan(...); }
+
+# onClick res/layout/settings.xml #generated:103
+-keepclassmembers class * { *** Start(...); }
+
+# onClick res/layout/activity_main.xml #generated:52
+-keepclassmembers class * { *** showIner(...); }
+
+# onClick res/layout/activity_main.xml #generated:43
+-keepclassmembers class * { *** showRewards(...); }
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#FF000000"
+	android:layout_weight="1.0">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="@string/app_name"
+		android:gravity="center_horizontal"
+		android:layout_gravity="center_horizontal"
+		android:textColor="#FFFFF4F4"
+		android:typeface="monospace"
+		android:textStyle="bold"
+		android:singleLine="true"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="5dp"
+		android:background="#FFFFFBFB"
+		android:gravity="center_vertical"
+		android:padding="5dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="MASUKKAN ID IKLAN :"
+			android:typeface="monospace"
+			android:textSize="16sp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold"/>
+
+		<EditText
+			android:layout_height="25dp"
+			android:layout_width="match_parent"
+			android:textColor="#FFFF0000"
+			android:typeface="sans"
+			android:textColorHint="#FFF7B2B2"
+			android:maxLines="1"
+			android:hint="ID IKLAN"
+			android:padding="2dp"
+			android:inputType="number"
+			android:id="@+id/edit1"
+			android:background="#00000000"
+			android:layout_marginLeft="5dp"
+			android:text="@string/id_ads"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:padding="5dp"
+		android:layout_margin="5dp"
+		android:background="#FFFFFFFF"
+		android:gravity="center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="COUNTDOWN :"
+			android:typeface="monospace"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FF000000"/>
+
+		<EditText
+			android:inputType="phone"
+			android:layout_width="match_parent"
+			android:layout_height="25dp"
+			android:hint="Masukkan Timer"
+			android:textColor="#FFFF1000"
+			android:textColorHint="#88FA9C9C"
+			android:maxLines="1"
+			android:padding="2dp"
+			android:id="@+id/edit2"
+			android:background="#00000000"
+			android:layout_marginLeft="10dp"
+			android:text="@string/timer"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="SIMPAN"
+			android:id="@+id/btn1"
+			android:onClick="Simpan"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="START"
+			android:id="@+id/btn2"
+			android:onClick="Start"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="5dp"
+		android:background="@drawable/splash_bg"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="INFORMASI :"
+			android:typeface="sans"
+			android:textStyle="bold"
+			android:textColor="#FFFFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/info"
+			android:typeface="serif"
+			android:textColor="#D9FFFFFF"
+			android:id="@+id/dataTextView1"
+			android:padding="5dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="@string/info1"
+			android:typeface="serif"
+			android:textColor="#D9FFFFFF"
+			android:padding="5dp"
+			android:id="@+id/dataTextView2"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="@string/myblog"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:typeface="sans"
+		android:textStyle="bold"
+		android:textColor="#FF5AB1FA"
+		android:padding="5dp"
+		android:id="@+id/dataTextView3"/>
+
+</LinearLayout>
+
+

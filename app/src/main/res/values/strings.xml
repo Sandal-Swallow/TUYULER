@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TUYULER</string>
+	<string name="myblog">https://sandal-swallow0.blogspot.com</string>
+	<string name="id_ads">200502811</string>
+	<string name="timer">30</string>
+	<string name="info"><p>Mohon gunakan\"VPN\" agar pendapatan anda jauh lebih besar.\n</p> Baca di blog kami untuk mendapatkan rekomendasi VPN terbaik buat nuyul.</string>
+	<string name="info1">Tetap Sabar walau Butuh Uang (°✓°)</string>
+	<string name="detect">Aplikasi mendeteksi bahwa anda belum mengganti \"ID Iklan \"!\n
+		dimohon untuk mengganti \"ID Iklan\" terlebih dahulu!\n
+		Jika anda ingin mencoba aplikasi tanpa mengganti \"ID Iklan\" maka silakan klik \"LANJUTKAN\".</string>
+
+</resources>

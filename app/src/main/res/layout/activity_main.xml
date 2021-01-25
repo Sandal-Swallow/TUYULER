@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/activitymainLinearLayout1"
+	android:orientation="vertical"
+	android:background="@drawable/splash_bg">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:padding="5dp"
+		android:gravity="center_vertical"
+		android:id="@+id/activitymainLinearLayout2">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="00.30"
+			android:typeface="monospace"
+			android:textStyle="bold"
+			android:shadowColor="#B5000000"
+			android:id="@+id/timertext"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:layout_weight="1.0"/>
+
+		<ImageButton
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="35dp"
+			android:layout_width="35dp"
+			android:src="@drawable/ic_settings"
+			android:padding="0dp"
+			android:textAlignment="inherit"
+			android:scaleType="center"/>
+
+		<Button
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:text="INERS"
+			android:padding="5dp"
+			android:layout_marginRight="5dp"
+			android:onClick="showRewards"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:text="REWARDS"
+			android:padding="5dp"
+			android:onClick="showIner"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:padding="0dp">
+
+		<ScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:gravity="center_horizontal|fill_vertical"
+				android:padding="0dp">
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner12"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Cover
+					android:id="@+id/startAppCover1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec6"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec7"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec8"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec10"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Banner
+					android:id="@+id/startAppBanner11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+				<com.startapp.sdk.ads.banner.Mrec
+					android:id="@+id/startAppMrec11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"/>
+
+				<com.startapp.sdk.ads.banner.Cover
+					android:id="@+id/startAppCover2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+					android:layout_margin="5dp"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+
